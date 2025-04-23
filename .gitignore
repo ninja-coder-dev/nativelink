@@ -1,6 +1,5 @@
 bazel-*
 target/
-.vscode/
 .idea/
 .zed
 .cache
@@ -11,6 +10,7 @@ terraform.tfstate*
 __pycache__
 .devenv/
 .direnv/
+temp_auto_push.bat
 .DS_Store
 .pre-commit-config.yaml
 result
@@ -24,3 +24,5 @@ rust-project.json
 darwin.bazelrc
 nativelink.bazelrc
 integration_tests/buildstream/buildstream.log
+.gitignore
+temp_interactive_push.bat
