@@ -1,6 +1,5 @@
 bazel-*
 target/
-.vscode/
 .idea/
 .zed
 .cache
